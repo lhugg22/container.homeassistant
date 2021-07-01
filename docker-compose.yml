@@ -9,3 +9,5 @@ services:
     restart: unless-stopped
     privileged: true
     network_mode: host
+    devices:
+       - /dev/serial/by-id/usb-dresden_elektronik_ingenieurtechnik_GmbH_ConBee_II_DE2437107-if00
